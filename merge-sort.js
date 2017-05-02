@@ -1,6 +1,3 @@
-pry = require('pryjs')
-// eval(pry.it);
-
 function mergeSort(numbers) {
   if(numbers.length == 1){
     return numbers
@@ -17,7 +14,6 @@ function mergeSort(numbers) {
 function mergeLists(a, b) {
   merged = []
   while(a.length > 0 && b.length > 0){
-    // eval(pry.it)
     if(a[0] <= b[0]){
       merged.push(a.shift());
     }else{
